@@ -38,8 +38,8 @@ class App extends Component {
 
   render() {
     return (
-      <div className="activeComponent">
-        Hello ActiveComponent!
+      <div className="homeComponent">
+        Hello homeComponent!
       </div>
     );
   }
