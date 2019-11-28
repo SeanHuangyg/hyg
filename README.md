@@ -1,4 +1,4 @@
-#react + plop + eslint
+#react + plop
 ## 项目启动
 1) 安装依赖 npm i 
 2) 运行项目 npm start
