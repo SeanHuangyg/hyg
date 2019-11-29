@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import registerServiceWorker from './registerServiceWorker';
+
 import Index from './Home/index';
 // 引入路由
 
@@ -15,3 +17,4 @@ ReactDOM.render(
   </div>,
   document.getElementById('root'),
 );
+registerServiceWorker();

@@ -7,6 +7,7 @@
 
 import React, { Component } from 'react';
 import './index.less';
+import apis from '../api/api'
 
 class App extends Component {
   constructor(props) {
@@ -17,6 +18,13 @@ class App extends Component {
   // 组件将要挂载的时候触发的生命周期函数
   componentWillMount() {
     console.log('组件将要挂载');
+    // apis.get( window.pckObj.hongbao + '/接口').then(res => {
+    //   if (res) {
+    //       if (res.data.code == 200) {
+    //           console.log(res.data.result)
+    //       }
+    //   }
+    // })
   }
   // 组件挂载完成的时候触发的生命周期函数
   componentDidMount() {
