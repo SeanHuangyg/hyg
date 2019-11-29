@@ -20,9 +20,9 @@ class App extends Component {
     console.log('组件将要挂载');
     // apis.get( window.pckObj.hongbao + '/接口').then(res => {
     //   if (res) {
-    //       if (res.data.code == 200) {
-    //           console.log(res.data.result)
-    //       }
+    //     if (res.data.code == 200) {
+    //       console.log(res.data.result)
+    //     }
     //   }
     // })
   }
