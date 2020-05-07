@@ -6,6 +6,7 @@
  */
 
 import React, { Component } from 'react';
+import intl from 'react-intl-universal';
 import './index.less';
 import apis from '../api/api'
 
@@ -45,9 +46,10 @@ class App extends Component {
   }
 
   render() {
+    const phone = intl.get('HELLO', { name: 'Tony', where: 'Alibaba' })
     return (
       <div className="homeComponent">
-        Hello homeComponent!
+        {phone}
       </div>
     );
   }
